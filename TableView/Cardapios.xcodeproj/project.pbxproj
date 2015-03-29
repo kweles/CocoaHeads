@@ -1,0 +1,428 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03ECFDE31A22B5B1001928CE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03ECFDE21A22B5B1001928CE /* AppDelegate.swift */; };
+		03ECFDE51A22B5B1001928CE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03ECFDE41A22B5B1001928CE /* ViewController.swift */; };
+		03ECFDE81A22B5B1001928CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03ECFDE61A22B5B1001928CE /* Main.storyboard */; };
+		03ECFDEA1A22B5B1001928CE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03ECFDE91A22B5B1001928CE /* Images.xcassets */; };
+		03ECFDED1A22B5B1001928CE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03ECFDEB1A22B5B1001928CE /* LaunchScreen.xib */; };
+		03ECFDF91A22B5B1001928CE /* CardapiosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03ECFDF81A22B5B1001928CE /* CardapiosTests.swift */; };
+		03ECFE031A22B71A001928CE /* CardapioTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03ECFE021A22B71A001928CE /* CardapioTableViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		03ECFDF31A22B5B1001928CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 03ECFDD51A22B5B1001928CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 03ECFDDC1A22B5B1001928CE;
+			remoteInfo = Cardapios;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03ECFDDD1A22B5B1001928CE /* Cardapios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cardapios.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		03ECFDE11A22B5B1001928CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03ECFDE21A22B5B1001928CE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		03ECFDE41A22B5B1001928CE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		03ECFDE71A22B5B1001928CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		03ECFDE91A22B5B1001928CE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		03ECFDEC1A22B5B1001928CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		03ECFDF21A22B5B1001928CE /* CardapiosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CardapiosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		03ECFDF71A22B5B1001928CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03ECFDF81A22B5B1001928CE /* CardapiosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardapiosTests.swift; sourceTree = "<group>"; };
+		03ECFE021A22B71A001928CE /* CardapioTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardapioTableViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		03ECFDDA1A22B5B1001928CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03ECFDEF1A22B5B1001928CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03ECFDD41A22B5B1001928CE = {
+			isa = PBXGroup;
+			children = (
+				03ECFDDF1A22B5B1001928CE /* Cardapios */,
+				03ECFDF51A22B5B1001928CE /* CardapiosTests */,
+				03ECFDDE1A22B5B1001928CE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		03ECFDDE1A22B5B1001928CE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				03ECFDDD1A22B5B1001928CE /* Cardapios.app */,
+				03ECFDF21A22B5B1001928CE /* CardapiosTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		03ECFDDF1A22B5B1001928CE /* Cardapios */ = {
+			isa = PBXGroup;
+			children = (
+				03ECFDE21A22B5B1001928CE /* AppDelegate.swift */,
+				03ECFDE41A22B5B1001928CE /* ViewController.swift */,
+				03ECFE021A22B71A001928CE /* CardapioTableViewController.swift */,
+				03ECFDE61A22B5B1001928CE /* Main.storyboard */,
+				03ECFDE91A22B5B1001928CE /* Images.xcassets */,
+				03ECFDEB1A22B5B1001928CE /* LaunchScreen.xib */,
+				03ECFDE01A22B5B1001928CE /* Supporting Files */,
+			);
+			path = Cardapios;
+			sourceTree = "<group>";
+		};
+		03ECFDE01A22B5B1001928CE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				03ECFDE11A22B5B1001928CE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		03ECFDF51A22B5B1001928CE /* CardapiosTests */ = {
+			isa = PBXGroup;
+			children = (
+				03ECFDF81A22B5B1001928CE /* CardapiosTests.swift */,
+				03ECFDF61A22B5B1001928CE /* Supporting Files */,
+			);
+			path = CardapiosTests;
+			sourceTree = "<group>";
+		};
+		03ECFDF61A22B5B1001928CE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				03ECFDF71A22B5B1001928CE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		03ECFDDC1A22B5B1001928CE /* Cardapios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03ECFDFC1A22B5B1001928CE /* Build configuration list for PBXNativeTarget "Cardapios" */;
+			buildPhases = (
+				03ECFDD91A22B5B1001928CE /* Sources */,
+				03ECFDDA1A22B5B1001928CE /* Frameworks */,
+				03ECFDDB1A22B5B1001928CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Cardapios;
+			productName = Cardapios;
+			productReference = 03ECFDDD1A22B5B1001928CE /* Cardapios.app */;
+			productType = "com.apple.product-type.application";
+		};
+		03ECFDF11A22B5B1001928CE /* CardapiosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03ECFDFF1A22B5B1001928CE /* Build configuration list for PBXNativeTarget "CardapiosTests" */;
+			buildPhases = (
+				03ECFDEE1A22B5B1001928CE /* Sources */,
+				03ECFDEF1A22B5B1001928CE /* Frameworks */,
+				03ECFDF01A22B5B1001928CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				03ECFDF41A22B5B1001928CE /* PBXTargetDependency */,
+			);
+			name = CardapiosTests;
+			productName = CardapiosTests;
+			productReference = 03ECFDF21A22B5B1001928CE /* CardapiosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		03ECFDD51A22B5B1001928CE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Weles Siqueira";
+				TargetAttributes = {
+					03ECFDDC1A22B5B1001928CE = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					03ECFDF11A22B5B1001928CE = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 03ECFDDC1A22B5B1001928CE;
+					};
+				};
+			};
+			buildConfigurationList = 03ECFDD81A22B5B1001928CE /* Build configuration list for PBXProject "Cardapios" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 03ECFDD41A22B5B1001928CE;
+			productRefGroup = 03ECFDDE1A22B5B1001928CE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				03ECFDDC1A22B5B1001928CE /* Cardapios */,
+				03ECFDF11A22B5B1001928CE /* CardapiosTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		03ECFDDB1A22B5B1001928CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03ECFDE81A22B5B1001928CE /* Main.storyboard in Resources */,
+				03ECFDED1A22B5B1001928CE /* LaunchScreen.xib in Resources */,
+				03ECFDEA1A22B5B1001928CE /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03ECFDF01A22B5B1001928CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		03ECFDD91A22B5B1001928CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03ECFE031A22B71A001928CE /* CardapioTableViewController.swift in Sources */,
+				03ECFDE51A22B5B1001928CE /* ViewController.swift in Sources */,
+				03ECFDE31A22B5B1001928CE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03ECFDEE1A22B5B1001928CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03ECFDF91A22B5B1001928CE /* CardapiosTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		03ECFDF41A22B5B1001928CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 03ECFDDC1A22B5B1001928CE /* Cardapios */;
+			targetProxy = 03ECFDF31A22B5B1001928CE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		03ECFDE61A22B5B1001928CE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03ECFDE71A22B5B1001928CE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		03ECFDEB1A22B5B1001928CE /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03ECFDEC1A22B5B1001928CE /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		03ECFDFA1A22B5B1001928CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		03ECFDFB1A22B5B1001928CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		03ECFDFD1A22B5B1001928CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Cardapios/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		03ECFDFE1A22B5B1001928CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Cardapios/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		03ECFE001A22B5B1001928CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CardapiosTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cardapios.app/Cardapios";
+			};
+			name = Debug;
+		};
+		03ECFE011A22B5B1001928CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CardapiosTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cardapios.app/Cardapios";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		03ECFDD81A22B5B1001928CE /* Build configuration list for PBXProject "Cardapios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03ECFDFA1A22B5B1001928CE /* Debug */,
+				03ECFDFB1A22B5B1001928CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03ECFDFC1A22B5B1001928CE /* Build configuration list for PBXNativeTarget "Cardapios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03ECFDFD1A22B5B1001928CE /* Debug */,
+				03ECFDFE1A22B5B1001928CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		03ECFDFF1A22B5B1001928CE /* Build configuration list for PBXNativeTarget "CardapiosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03ECFE001A22B5B1001928CE /* Debug */,
+				03ECFE011A22B5B1001928CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 03ECFDD51A22B5B1001928CE /* Project object */;
+}
