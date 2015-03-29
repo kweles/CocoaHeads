@@ -53,10 +53,10 @@ class CardapioTableViewController: UITableViewController {
         //cell.textLabel.textColor = UIColor.whiteColor()
         
         if indexPath.row % 2 == 0{
-            cell.textLabel.textColor = UIColor.redColor()
+            cell.textLabel?.textColor = UIColor.redColor()
         }
-        cell.textLabel.text  = listaCardapio[indexPath.row]
-        cell.imageView.image = UIImage(named: listaThumb[indexPath.row])
+        cell.textLabel?.text  = listaCardapio[indexPath.row]
+        cell.imageView?.image = UIImage(named: listaThumb[indexPath.row])
         
         return cell
     }
